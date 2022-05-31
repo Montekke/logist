@@ -1,0 +1,40 @@
+<section class="section-11">
+	<div class="section-11__container _container">
+		<div class="section-11__left">
+			<h1 class="main-title-section section-11__title">
+				Все прошло успешно!
+			</h1>
+			<h2 class="title-section section-11__subtitle">
+				Для составления точной стоимости отправки
+				специалисту <strong>необходимо задать вам несколько
+					уточняющих вопросов</strong>
+			</h2>
+			<h3 class="form-thank__title">
+				<div class="form-thank__img">
+					<img src="img/phone.svg" alt="">
+				</div>
+				<span class="form-thank__text">
+					Пожалуйста, проверьте корректность
+					введенного вами номера телефона
+				</span>
+			</h3>
+			<div class="section-11__form form-thank">
+				<div class="form-thank__form">
+					<input type="tel" class="form-control" name="phone" placeholder="<?php echo $_COOKIE['phone'];?>"
+						value="<?php echo $_COOKIE['phone'];?>">
+				</div>
+				<button data-bs-toggle="modal" data-bs-target="#callback2" class="main-btn">
+					<span> Нашли ошибку в номере?</span>
+					Нажмите здесь и введите<br>
+					корректный номер
+				</button>
+			</div>
+		</div>
+		<div class="section-11__img">
+			<picture>
+				<source srcset="img/manager.webp" type="image/webp">
+				<img src="img/manager.png" alt="">
+			</picture>
+		</div>
+	</div>
+</section>
